@@ -1,0 +1,37 @@
+= Profile2csv
+
+iOS Profiles to csv list.
+
+= Wants
+
+I controll 62's iPad to use MDM.
+I make many iOS profile.
+I want to make vpn username and password list from many iOS Profiles.
+
+= Environment
+
+- Windows10 Pro
+- PowerShell v5.1
+- many iOS Profiles
+
+= files
+
+iOSProfile
+
+- vpn1.mobileconfig
+- vpn2.mobileconfig
+
+PowerShell
+
+- getproperty.ps1
+- vpnlist.ps1
+
+== getproperty.ps1
+get property from one iOS profile 
+
+== vpnlist.ps1
+get vpn username and passowrd list from many iOS profiles.
+
+= How to use
+
+run vpnlist.ps1
